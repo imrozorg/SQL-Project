@@ -1,14 +1,12 @@
 /*	Question Set 1 - Easy */
 
-/* Q1: Who is the senior most employee based on job title? */
+/* Q1: Check how many rows in  database. */
 
-SELECT title, last_name, first_name 
-FROM employee
-ORDER BY levels DESC
-LIMIT 1
+SELECT * From Finance_1;
+SELECT * From Finance_2;
 
 
-/* Q2: Which countries have the most Invoices? */
+/* Q2:  */
 
 SELECT COUNT(*) AS c, billing_country 
 FROM invoice
